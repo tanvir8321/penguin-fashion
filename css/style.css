@@ -14,3 +14,6 @@
 .product-img{
     width: 90px;
 }
+.main-contain-revers{
+    flex-direction: column-reverse;
+}
