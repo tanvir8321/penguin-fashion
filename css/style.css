@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-header, .navbar-custom-bg{
+header, .navbar-custom-bg, .footer-bg{
     background-color: rgb(255 255 244);
 }
 .logo{
@@ -64,3 +64,33 @@ header, .navbar-custom-bg{
     color: #3C3C3C !important;
     font-weight: 400;
 }
+.product-cat-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    color: #363958;
+}
+.product-title{
+    color: #363958;
+    font-weight: 600;
+}
+.copyright-tanvir, .copyright-ahammed{
+    font-weight: 900;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+.copyright-tanvir{
+    color: #363958;
+}
+.copyright-ahammed{
+    color: #76c27e;
+}
+.custom-icon {
+    background-image: url(../images/logo/menu.svg) !important;
+    color: black;
+    transform:scaleX(-1);
+}
+.custom-navbar-border{
+    border: 0;
+}
+/* Surah Fatiha - 7 - second
+Durud - 1 - First, last */
