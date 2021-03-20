@@ -1,19 +1,66 @@
+body{
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+header{
+    background-color: rgb(255 255 244);
+}
 .logo{
     width: 250px;
 }
 .buy-cart{
     width: 20px;
+    
+}
+.btn-custom{
+    background-color: rgb(42 30 89);
+}
+.btn-custom:hover{
+    background-color: rgb(100 87 150);
+}
+.btn-custom:focus{
+    background-color: rgb(100 87 150);
 }
 .hero-img{
     width: 100%;
 }
-.hero-title{}
+.hero-title{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 80px;
+    color: rgb(54 57 88);
+}
 .hero-title span{
     display: block;
+    color: rgb(118 194 126);
 }
 .product-img{
     width: 90px;
 }
 .main-contain-revers{
     flex-direction: column-reverse;
+}
+
+.card-border-none{
+    border:0;
+    background-color: #fff;;
+    border-radius: 20px;
+}
+.card-custom-footer{
+    border: 0;
+    background-color: #fff;
+}
+.card-img-custom-bg{
+    background-color: #ddd;
+    border-radius: 20px;
+}
+.price{
+    color: rgb(118 194 126);
+    font-size: 36px;
+}
+.custom-nav-link{
+    padding: 10px 20px !important;
+    color: #3C3C3C !important;
+    font-weight: 400;
 }
